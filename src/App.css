@@ -1,0 +1,32 @@
+/* width */
+::-webkit-scrollbar {
+    margin-top: 1rem !important;
+    height: 7px !important;
+
+}
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #797979;
+    cursor: pointer !important;
+
+}
+
+/* Handle on hover */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap');
+
+:root {
+ 
+    font-family: 'Montserrat', sans-serif;
+    --line-height: 1.5;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #525252;
+}
